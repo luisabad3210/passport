@@ -1,0 +1,198 @@
+button {
+  background-color: rgb(96, 89, 248);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  width: 130px;
+  height: 35px;
+  margin: 10px;
+  cursor: pointer;
+  font-size: 17px;
+}
+button:hover {
+  background-color: rgb(86, 79, 221);
+}
+.navContainer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(55, 54, 75);
+}
+
+.navWrapper {
+  /* border: 1px solid blue; */
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(55, 54, 75);
+  color: white;
+}
+
+h1 {
+  font-size: 35px;
+  margin: 10px;
+}
+body {
+  margin: 0px!important;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial Rounded MT Bold;
+}
+img {
+  margin: 10px;
+}
+
+.homeContainer {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.homeWrapper {
+  width: 1300px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.imageContainer, .exploreContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* border: 1px solid blue; */
+  width: 50%;
+}
+.exploreContainer {
+  padding: 0px 0px 0px 50px;
+}
+
+.displayContainer {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.displayWrapper {
+  /* border: 1px solid red; */
+  width: 1300px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chartContainer {
+  width: 1200px;
+  border: 1px solid lightgray;
+  /* border-radius: 20px; */
+  margin: 20px;
+}
+
+.chartSection {
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.chartLable {
+width: 20%;
+background-color: rgb(242, 242, 242);
+padding: 15px;
+}
+.chartResults {
+padding: 15px;
+}
+h4, p {
+  color: rgb(55, 54, 75);
+}
+.transactionSection {
+border: 2px solid lightgray;
+}
+.transactionSectionTable {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1200px;
+  /* border: 1px solid red; */
+  background-color: rgb(242, 242, 242);
+  padding: 5px;
+}
+.transactionSectionResults {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+input {
+  border: 2px solid lightgray;
+    border-radius: 20px;
+    width: 400px;
+    height: 19px;
+    font-size: 20px;
+    padding: 8px;
+}
+input:focus {
+  outline-color: rgb(86, 79, 221);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: lightgrey;
+  opacity: 1; /* Firefox */
+  font-family: Arial, Helvetica, sans-serif;
+}
+.searchboxContainerHome, .searchboxContainerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.logo {
+  color: white;
+  text-decoration: none;
+}
+
+.errorWrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media screen and (min-width: 350px) and (max-width: 450px) {
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 550px) {
+
+}
+
+@media screen and (min-width: 550px) and (max-width: 650px) {
+
+}
+
+@media screen and (min-width: 750px) and (max-width: 850px) {
+
+}
+
+@media screen and (min-width: 950px) and (max-width: 1050px) {
+
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1250px) {
+
+}
