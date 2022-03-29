@@ -18,7 +18,6 @@ class App extends Component {
         isHome={this.state.isHome}
         search={this.state.search}
         callbackFunction = {(searched)=>{
-          console.log("this is from the nav page" + searched)
           this.setState({search: searched});
         }}/>
         <Routes>
